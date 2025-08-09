@@ -50,7 +50,7 @@
 ### Contribution stats
 
 <!-- PR_COUNT -->
-- total prs: **1**  
+- total prs: **2**  
 - merged prs: **1**
 <!-- PR_COUNT_END -->
 
