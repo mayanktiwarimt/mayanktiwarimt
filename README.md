@@ -32,7 +32,39 @@
   </a>
 </p>
 
+---
+
+## Contributions & activity
+
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=mayanktiwarimt&theme=radical&row=1&column=7" alt="Trophies" />
+
+<!-- Contribution heatmap -->
+![Contribution chart](https://ghchart.rshah.org/mayanktiwarimt)
+
+<!-- Activity graph -->
+![activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=mayanktiwarimt&theme=react-dark&area=true)
+
+<!-- PR / Commit counts (placeholders updated by GitHub Action) -->
+
+### Contribution stats
+
+<!-- PR_COUNT -->
+- total prs: **0**  
+- merged prs: **0**
+<!-- PR_COUNT_END -->
+
+<!-- TOP_REPO -->
+### 🔝 Top contributed repo
+**[IoT-Temperature-Monitor](https://github.com/mayanktiwarimt/IoT-Temperature-Monitor)**  
+- role: maintainer & active PRs  
+- ⭐ 24 • good README • live demo
+<!-- TOP_REPO_END -->
+
+---
+
 ## Tech stack
+
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python) ![Embedded C](https://img.shields.io/badge/Embedded%20C-00599C?style=for-the-badge&logo=c) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino) ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif) ![IoT](https://img.shields.io/badge/IoT-FF6F00?style=for-the-badge&logo=internet-of-things)
 
 ## Projects
@@ -45,3 +77,5 @@ Built a real-time temperature monitoring system for industrial bakery ovens usin
 ## GitHub Stats
 [![Mayank's GitHub stats](https://github-readme-stats.vercel.app/api?username=mayanktiwarimt&show_icons=true&theme=radical)](https://github.com/mayanktiwarimt)  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayanktiwarimt&layout=compact&theme=radical)](https://github.com/mayanktiwarimt)
+
+---
