@@ -1,7 +1,7 @@
 name: update-contrib-stats
 on:
   schedule:
-    - cron: '0 6 * * *'   # daily at 06:00 UTC
+    - cron: '0 6 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -19,17 +19,27 @@ jobs:
           script: |
             const username = 'mayanktiwarimt';
 
-            // total PRs authored by the user
-            const prs = await github.rest.search.issuesAndPullRequests({
-              q: `author:${username} is:pr`,
-            });
+            const totalPrRes = await github.graphql(
+              `query($q: String!) {
+                 search(query: $q, type: ISSUE) {
+                   issueCount
+                 }
+               }`,
+              { q: `author:${username} is:pr` }
+            );
 
-            // merged PRs authored by the user
-            const merged = await github.rest.search.issuesAndPullRequests({
-              q: `author:${username} is:pr is:merged`,
-            });
+            const mergedPrRes = await github.graphql(
+              `query($q: String!) {
+                 search(query: $q, type: ISSUE) {
+                   issueCount
+                 }
+               }`,
+              { q: `author:${username} is:pr is:merged` }
+            );
 
-            // fetch README.md from the workflow repo
+            const total_prs = totalPrRes.search.issueCount;
+            const merged_prs = mergedPrRes.search.issueCount;
+
             const { data: readme } = await github.rest.repos.getContent({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -38,14 +48,12 @@ jobs:
 
             const content = Buffer.from(readme.content, 'base64').toString('utf8');
 
-            // safely replace the placeholder block between markers
             const start = '<!-- PR_COUNT -->';
             const end = '<!-- PR_COUNT_END -->';
-
             const before = content.split(start)[0];
             const after = content.split(end)[1] || '';
 
-            const newBlock = `${start}\n- total prs: **${prs.data.total_count}**  \n- merged prs: **${merged.data.total_count}**\n${end}`;
+            const newBlock = `${start}\n- total prs: **${total_prs}**  \n- merged prs: **${merged_prs}**\n${end}`;
 
             const newContent = before + newBlock + after;
 
