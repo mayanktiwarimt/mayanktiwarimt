@@ -50,8 +50,8 @@
 ### Contribution stats
 
 <!-- PR_COUNT -->
-- total prs: **0**  
-- merged prs: **0**
+- total prs: **1**  
+- merged prs: **1**
 <!-- PR_COUNT_END -->
 
 <!-- TOP_REPO -->
