@@ -79,3 +79,13 @@ Built a real-time temperature monitoring system for industrial bakery ovens usin
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mayanktiwarimt&layout=compact&theme=radical)](https://github.com/mayanktiwarimt)
 
 ---
+<!-- LANGUAGES_USED -->
+| Language | Usage |
+|---:|:---|
+|  C++17 (GCC 7-32) | 87.20% |
+|  C++23 (GCC 14-64, msys2) | 10.98% |
+|  C++20 (GCC 13-64) | 0.61% |
+|  Python 2 | 0.61% |
+|  PyPy 3-64 | 0.61% |
+
+<!-- LANGUAGES_USED_END -->
