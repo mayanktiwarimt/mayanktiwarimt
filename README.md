@@ -71,3 +71,7 @@ Built a real-time temperature monitoring system for industrial bakery ovens usin
 
 
 
+<!-- PR_COUNT -->
+- total prs: **8**  
+- merged prs: **8**
+<!-- PR_COUNT_END -->
