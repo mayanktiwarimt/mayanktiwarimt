@@ -42,8 +42,6 @@
 <!-- Contribution heatmap -->
 ![Contribution chart](https://ghchart.rshah.org/mayanktiwarimt)
 
-<!-- Activity graph -->
-![activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=mayanktiwarimt&theme=react-dark&area=true)
 
 <!-- PR / Commit counts (placeholders updated by GitHub Action) -->
 
@@ -56,7 +54,6 @@
 
 <!-- TOP_REPO -->
 ### 🔝 Top contributed repo
-**[IoT-Temperature-Monitor](https://github.com/mayanktiwarimt/IoT-Temperature-Monitor)**  
 - role: maintainer & active PRs  
 - ⭐ 24 • good README • live demo
 <!-- TOP_REPO_END -->
