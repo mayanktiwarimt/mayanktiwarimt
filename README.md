@@ -38,7 +38,7 @@
 
 <!-- Trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=mayanktiwarimt&theme=radical&row=1&column=7" alt="Trophies" />
-
+<!-- Trophies_End -->
 
 <!-- PR / Commit counts (placeholders updated by GitHub Action) -->
 
