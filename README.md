@@ -39,18 +39,10 @@
 <!-- Trophies -->
 <img src="https://github-profile-trophy.vercel.app/?username=mayanktiwarimt&theme=radical&row=1&column=7" alt="Trophies" />
 
-<!-- Contribution heatmap -->
-![Contribution chart](https://ghchart.rshah.org/mayanktiwarimt)
-
 
 <!-- PR / Commit counts (placeholders updated by GitHub Action) -->
 
 ### Contribution stats
-
-<!-- PR_COUNT -->
-- total prs: **3**  
-- merged prs: **3**
-<!-- PR_COUNT_END -->
 
 <!-- TOP_REPO -->
 ### 🔝 Top contributed repo
