@@ -1,24 +1,34 @@
-name: Update README
+name: Update GitHub Profile
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:        # Allow manual run
+    - cron: "0 0 * * *" # runs every day at midnight UTC
+  workflow_dispatch:      # allow manual trigger
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Update GitHub README Stats
-        uses: anmol098/waka-readme-stats@master
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit changes
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Run update script
+        run: node update-readme.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: mayanktiwarimt
+
+      - name: Commit and push changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Updated README stats" || echo "No changes to commit"
+          git commit -m "Updated profile stats" || echo "No changes to commit"
           git push
