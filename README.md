@@ -45,11 +45,8 @@
 ### Contribution stats
 
 <!-- TOP_REPO -->
-### 🔝 Top contributed repo
-- role: maintainer & active PRs  
-- ⭐ 24 • good README • live demo
+(auto-filled)
 <!-- TOP_REPO_END -->
-
 ---
 
 ## Tech stack
@@ -69,12 +66,8 @@ Built a real-time temperature monitoring system for industrial bakery ovens usin
 
 ---
 <!-- LANGUAGES_USED -->
-| Language | Usage |
-|---:|:---|
-|  C++17 (GCC 7-32) | 87.20% |
-|  C++23 (GCC 14-64, msys2) | 10.98% |
-|  C++20 (GCC 13-64) | 0.61% |
-|  Python 2 | 0.61% |
-|  PyPy 3-64 | 0.61% |
-
+(auto-filled)
 <!-- LANGUAGES_USED_END -->
+
+
+
