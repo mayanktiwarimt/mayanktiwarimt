@@ -68,11 +68,11 @@ Built a real-time temperature monitoring system for industrial bakery ovens usin
 <!-- LANGUAGES_USED -->
 | Language | Usage |
 |---:|:---|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" alt="JavaScript" /> JavaScript | 96.17% |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" alt="JavaScript" /> JavaScript | 96.12% |
 |  HTML | 1.95% |
 |  CSS | 1.11% |
 |  C++17 (GCC 7-32) | 0.63% |
-|  C++23 (GCC 14-64, msys2) | 0.12% |
+|  C++23 (GCC 14-64, msys2) | 0.17% |
 |  C++20 (GCC 13-64) | 0.00% |
 |  Python 2 | 0.00% |
 |  PyPy 3-64 | 0.00% |
